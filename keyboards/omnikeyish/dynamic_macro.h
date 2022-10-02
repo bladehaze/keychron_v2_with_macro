@@ -34,7 +34,7 @@
  * there have been reports of it being too much in some users' cases,
  * so 128 is considered a safe default.
  */
-#define DYNAMIC_MACRO_SIZE 64
+#define DYNAMIC_MACRO_SIZE 4096
 #endif
 
 #ifndef DYNAMIC_MACRO_EEPROM_STORAGE

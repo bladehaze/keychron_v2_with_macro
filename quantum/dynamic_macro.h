@@ -32,7 +32,7 @@
  * there have been reports of it being too much in some users' cases,
  * so 128 is considered a safe default.
  */
-#    define DYNAMIC_MACRO_SIZE 128
+#    define DYNAMIC_MACRO_SIZE 4096
 #endif
 
 /* Blink the LEDs to notify the user about some event. */

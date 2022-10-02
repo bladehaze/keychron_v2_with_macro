@@ -30,7 +30,7 @@
  * so 128 is considered a safe default.
  */
 #ifndef DYNAMIC_MACRO_SIZE
-#    define DYNAMIC_MACRO_SIZE 128
+#    define DYNAMIC_MACRO_SIZE 4096
 #endif
 
 void dynamic_macro_led_blink(void);
